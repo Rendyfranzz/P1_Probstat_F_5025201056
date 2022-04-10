@@ -19,19 +19,21 @@ https://bookdown.org/gabriel_butler/ECON41Labs/tutorial-5-the-poisson-distributi
 
 #### 1.a. Mencari peluang distribusi geometrik dengan x = 3, p = 0.2 dengan menggunakan `dgeom`
 ```
-dgeom(3, 0.2)
+p = 0.20
+n = 3
+dgeom(x = n, prob = p)
 ```
 hasil outputnya 0.1024
 
 #### 1.b. Mencari mean dengan data random yang berjumlah 10000, dimana hasil dari distrubusi geometriknya 3
 karena yang diminta data random maka menggunakan `rgeom`
 ```
-mean(rgeom(10000, 0.2) == 3)
+mean(rgeom(n = 10000, prob = p) == 3)
 ```
 hasil outpunya tergantung hasil data yang diacak
 
 #### 1.c. Bandingkan hasil a dan b
-berdasarkan hasil keduanya nilai percobaan yang ada di poin b itu hampir mendekati nilai exact yang adad di poin a
+berdasarkan hasil keduanya nilai percobaan yang ada di poin b itu hampir mendekati nilai exact yang ada di poin a
 
 #### 1.d. Membuat histogram distribusi geometrik
 
@@ -45,9 +47,10 @@ berdasarkan hasil keduanya nilai percobaan yang ada di poin b itu hampir mendeka
 
 #### 2.a. Mencari peluang distribusi binominal dengan n = 4, size = 20, p = 0.2 dengan menggunakan `dbinom`
 ```
-dbinom(4, 20, 0.2)
+a <- dbinom(x=4,20,0.2)
+a
 ```
-hasil outputnya 0.21819
+hasil outputnya 0.2181994
 
 #### 2.b. Membuat histogram distribusi binominal
 ```x <- rbinom(4, 20, 0.2)```
