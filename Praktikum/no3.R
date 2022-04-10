@@ -28,7 +28,7 @@ babies %>% ggplot() +
 babies %>% dplyr::summarize(six_babies = sum(babies$data == 6) / n())
 #d
 #mean
-
+lambda
 
 #variance
 lambda
