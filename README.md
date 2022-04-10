@@ -137,7 +137,7 @@ z_score <- (data - mean(data)/ sd(data))
 ```
 Lalu digambarkan dengan grafik menggunakan `plot()`
 ```
-plot(z_score, type = 'l', col='red')
+plot(z_score, type = 'o', col='blue')
 ```
 ![Grafik Plot](https://user-images.githubusercontent.com/90760961/162613898-6ced1286-b265-4ba3-9cb6-c03613bdc5c1.png)
 
