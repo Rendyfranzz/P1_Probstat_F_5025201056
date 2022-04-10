@@ -6,7 +6,7 @@ std = 8
 data <- rnorm(n,m,std)
 rata_rata <- mean(data)
 x1 <- floor(mean(data))
-x2 <- round(mean(data))
+x2 <- ceiling(mean(data))
 
 z_scores <- (data - mean(data) / sd(data))
 
