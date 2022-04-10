@@ -139,7 +139,7 @@ Lalu digambarkan dengan grafik menggunakan `plot()`
 ```
 plot(z_score, type = 'l', col='red')
 ```
-![Grafik Plot](https://user-images.githubusercontent.com/90760961/162613839-91862c2d-85aa-434e-b9bd-d9acfd642635.png)
+![Grafik Plot](https://user-images.githubusercontent.com/90760961/162613898-6ced1286-b265-4ba3-9cb6-c03613bdc5c1.png)
 
 #### 6.b. Membuat histogram distribusi chi-square
 ```
@@ -148,6 +148,6 @@ hist(data,
      breaks = 50)
  ```
 
-![Histogram Distribusi Normal](https://user-images.githubusercontent.com/90760961/162613865-e9be4486-1bfb-492f-bdc8-c638e220e966.png)
+![Histogram Distribusi Normal](https://user-images.githubusercontent.com/90760961/162613924-45947cbe-20ca-44e6-8113-c85bcfe71dbb.png)
 
 #### 6.c. Nilai varian dapat dicari dengan `σ² = var(data)`
