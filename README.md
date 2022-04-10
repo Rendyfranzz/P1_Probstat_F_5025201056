@@ -13,5 +13,5 @@ https://mse.redwoods.edu/darnold/math15/spring2013/R/Activities/MeanVarStd.html
 https://bookdown.org/gabriel_butler/ECON41Labs/tutorial-5-the-poisson-distribution.html
 
 - no 5
-- https://rpubs.com/carlosehernandezr/Exponential-Distribution
-- https://rstudio-pubs-static.s3.amazonaws.com/122318_18a1529811ab4874b999a3f7c408c66a.html
+-- https://rpubs.com/carlosehernandezr/Exponential-Distribution
+-- https://rstudio-pubs-static.s3.amazonaws.com/122318_18a1529811ab4874b999a3f7c408c66a.html
