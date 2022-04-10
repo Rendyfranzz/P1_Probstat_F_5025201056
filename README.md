@@ -86,13 +86,21 @@ Dapat dilihat bahwa hasil simulasi nya sekitar 11.50% sedangkan nilai exact nya 
 
 #### 4.a. Mencari peluang distribusi chi-square dengan x = 2, df = 10 dengan menggunakan `dchisq`
 ```
-dchisq(4, 20, 0.2)
+x = 2
+df = 10
+dchisq(x , df)
 ```
-hasil outputnya 0.0076641
+hasil outputnya 0.007664155
 
 #### 4.b. Membuat histogram distribusi chi-square
 ```
-x <- rchisq(100, 10)
+p <- rchisq(100,df)
+
+hist(p,
+     freq = FALSE,
+     xlim = c(0,30),
+     ylim = c(0,0.2),
+     main = "Histogram Of Chisquare")
 ```
 
 ![Histogram Distribusi Chi_Square](https://user-images.githubusercontent.com/90760961/162613193-df95a022-0767-450b-9f66-109bed210c91.png)
@@ -104,14 +112,15 @@ x <- rchisq(100, 10)
 
 #### 5.a. Mencari peluang distribusi eksponensial dengan n = 10, rate = 3 dengan menggunakan `rexp`
 ```
-rexp(10, 3)
+lambda = 3
+rexp(10,rate = lambda)
 ```
 hasil outputnya berupa data yang berjumlah 10 
 
 #### 5.b. Membuat histogram distribusi eksponensial dengan n = 10, 100, 1000, 10000
 ```
 set.seed(1)
-x1 <- rexp(n, 3)
+x1 <- rexp(n, rate = lambda)
 ```
 ![Histogram Distribusi Eksponensial n = 10](https://user-images.githubusercontent.com/90760961/162613214-4afcc64f-6353-42ae-829f-3574058d48d0.png)
 
@@ -121,7 +130,7 @@ x1 <- rexp(n, 3)
 
 ![Histogram Distribusi Eksponensial n = 10000](https://user-images.githubusercontent.com/90760961/162613260-47aacabf-9d53-45dc-b496-f4f47255e8e3.png)
 
-#### 5.c. Nilai rataan dapat dicari dengan `μ = mean(rexp(100, 3)` sedangkan varian mengunakan `σ² = var(rexp(100, 3)`
+#### 5.c. Nilai rataan dapat dicari dengan `data <- rexp(n, rate = lamda)` `μ = mean(data)` sedangkan varian mengunakan `σ² = var(data)`
 
 
 ### Soal 6 Distribusi Normal
