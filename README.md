@@ -64,7 +64,9 @@ hasil outputnya 0.2181994
 
 #### 3.a. Mencari peluang distribusi poisson dengan x = 6, lamba = 4.5 dengan menggunakan `dpois`
 ```
-dpois(6, 4.5)
+x = 6
+lambda = 4.5
+dpois(x,lambda)
 ```
 hasil outputnya 0.12812
 
