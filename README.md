@@ -126,13 +126,13 @@ x1 <- rexp(n, 3)
 
 #### 6.a. Mencari peluang distribusi normal dengan data acak dengan syarat P(X1 ≤ x ≤ X2) dengan menggunakan `rnorm`
 ```
-data <- rnorm(100, 50, 8)
-avg <- mean(data)
+data <- rnorm(n,m,std)
+rata_rata <- mean(data)
 ```
 Lalu untuk mendapatkan x1 dan x2 menggunakan `floor` dan `ceiling`
 ```
-x1 <- floor(avg)
-x2 <- ceiling(avg)
+x1 <- floor(rata_rata)
+x2 <- ceiling(rata_rata)
 ```
 Lalu hitung z_scorenya 
 ```
@@ -140,7 +140,7 @@ z_score <- (data - mean(data)/ sd(data))
 ```
 Lalu digambarkan dengan grafik menggunakan `plot()`
 ```
-plot(z_score, type = 'o', col='blue')
+plot(z_scores, type = "o", col="blue")
 ```
 ![Grafik Plot](https://user-images.githubusercontent.com/90760961/162613898-6ced1286-b265-4ba3-9cb6-c03613bdc5c1.png)
 
