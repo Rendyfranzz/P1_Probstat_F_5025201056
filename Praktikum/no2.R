@@ -13,16 +13,5 @@ n=20 #pasien
 p=0.2 #peluang
 q=1-p #peluang failure
 
-#mean theorytical
-me=n*p
-me
-
-#mean sample
-mean(data)
-
-#variance theorytical
-va=n*p*q
-va
-
-#variance sample
-var(data)
+rataan <- 20*0.2 #n*p
+varian <- 20*0.2*0.8 #n*p*q
