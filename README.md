@@ -53,7 +53,7 @@ a
 hasil outputnya 0.2181994
 
 #### 2.b. Membuat histogram distribusi binominal
-```x <- rbinom(4, 20, 0.2)```
+```data <- rbinom(20,20,0.2)```
 
 ![Histogram Distribusi Binominal](https://user-images.githubusercontent.com/90760961/162613123-402a6a0b-7eff-4e5b-aafe-02095157ebf4.png)
 
@@ -146,6 +146,7 @@ plot(z_scores, type = "o", col="blue")
 
 #### 6.b. Membuat histogram distribusi chi-square
 ```
+x <- rnorm(100,50,8)
 hist(data, 
      main = "5025201056_Rendi Dwi Francisko_Probstat_F_DNhistogram",
      breaks = 50)
@@ -153,4 +154,4 @@ hist(data,
 
 ![Histogram Distribusi Normal](https://user-images.githubusercontent.com/90760961/162613924-45947cbe-20ca-44e6-8113-c85bcfe71dbb.png)
 
-#### 6.c. Nilai varian dapat dicari dengan `σ² = var(data)`
+#### 6.c. Nilai varian dapat dicari dengan `σ² = var(x)`
