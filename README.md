@@ -16,13 +16,6 @@ https://bookdown.org/gabriel_butler/ECON41Labs/tutorial-5-the-poisson-distributi
 -- https://rpubs.com/carlosehernandezr/Exponential-Distribution
 -- https://rstudio-pubs-static.s3.amazonaws.com/122318_18a1529811ab4874b999a3f7c408c66a.html
 
-# P1_Probstat_F_5025201051
-Praktikum Probstat 1
-
-Muhammad Fath Mushaffa Azhar 
-
-5025201051
-
 ## Penjelasan Pengerjaan
 
 
@@ -46,7 +39,7 @@ berdasarkan hasil keduanya nilai percobaan yang ada di poin b itu hampir mendeka
 
 #### 1.d. Membuat histogram distribusi geometrik
 
-![Histogram Distribusi Geometrik](https://github.com/fshaaa/P1_Probstat_F_5025201051/blob/main/screenshot/soal1.d.PNG)
+![Histogram Distribusi Geometrik](https://user-images.githubusercontent.com/90760961/162613069-1446064f-3146-455c-9590-225f4aee3172.png)
 
 Referensi : https://rpubs.com/mpfoley73/458721 
 #### 1.e. Nilai rataan dapat dicari dengan `μ = 1/p` sedangkan varian `σ² = 1-p/p^2` 
@@ -63,7 +56,7 @@ hasil outputnya 0.21819
 #### 2.b. Membuat histogram distribusi binominal
 ```x <- rbinom(4, 20, 0.2)```
 
-![Histogram Distribusi Binominal](https://github.com/fshaaa/P1_Probstat_F_5025201051/blob/main/screenshot/soal2.b.PNG)
+![Histogram Distribusi Binominal](https://user-images.githubusercontent.com/90760961/162613123-402a6a0b-7eff-4e5b-aafe-02095157ebf4.png)
 
 #### 2.c. Nilai rataan dapat dicari dengan `μ = n*p` sedangkan varian `σ² = npq` 
 
@@ -78,7 +71,7 @@ hasil outputnya 0.12812
 
 #### 3.b. Membuat histogram distribusi poisson
 
-![Histogram Distribusi Poisson](https://github.com/fshaaa/P1_Probstat_F_5025201051/blob/main/screenshot/soal3.b.PNG)
+![Histogram Distribusi Poisson](https://user-images.githubusercontent.com/90760961/162613162-c38b3f7f-ed84-42bd-8696-c8abf233749b.png)
 
 REFERENSI : https://bookdown.org/gabriel_butler/ECON41Labs/tutorial-5-the-poisson-distribution.html 
 
@@ -101,7 +94,7 @@ hasil outputnya 0.0076641
 x <- rchisq(100, 10)
 ```
 
-![Histogram Distribusi Chi_Square](https://github.com/fshaaa/P1_Probstat_F_5025201051/blob/main/screenshot/soal4.b.PNG)
+![Histogram Distribusi Chi_Square](https://user-images.githubusercontent.com/90760961/162613193-df95a022-0767-450b-9f66-109bed210c91.png)
 
 #### 4.c. Nilai rataan dapat dicari dengan `μ = df` sedangkan varian `σ² = 2*df`
 
@@ -122,13 +115,13 @@ hasil outputnya berupa data yang berjumlah 10
 set.seed(1)
 x1 <- rexp(n, 3)
 ```
-![Histogram Distribusi Eksponensial n = 10](https://github.com/fshaaa/P1_Probstat_F_5025201051/blob/main/screenshot/soal5.b_n=10.PNG)
+![Histogram Distribusi Eksponensial n = 10](https://user-images.githubusercontent.com/90760961/162613214-4afcc64f-6353-42ae-829f-3574058d48d0.png)
 
-![Histogram Distribusi Eksponensial n = 100](https://github.com/fshaaa/P1_Probstat_F_5025201051/blob/main/screenshot/soal5.b_n=100.PNG)
+![Histogram Distribusi Eksponensial n = 100](https://user-images.githubusercontent.com/90760961/162613231-9137edd4-dc3f-4fe0-8794-2f4239bbf25f.png)
 
-![Histogram Distribusi Eksponensial n = 1000](https://github.com/fshaaa/P1_Probstat_F_5025201051/blob/main/screenshot/soal5.b_n=1000.PNG)
+![Histogram Distribusi Eksponensial n = 1000](https://user-images.githubusercontent.com/90760961/162613247-272cd4a4-4190-4846-8aec-849bf2e50063.png)
 
-![Histogram Distribusi Eksponensial n = 10000](https://github.com/fshaaa/P1_Probstat_F_5025201051/blob/main/screenshot/soal5.b_n=10000.PNG)
+![Histogram Distribusi Eksponensial n = 10000](https://user-images.githubusercontent.com/90760961/162613260-47aacabf-9d53-45dc-b496-f4f47255e8e3.png)
 
 #### 5.c. Nilai rataan dapat dicari dengan `μ = mean(rexp(100, 3)` sedangkan varian `σ² = var(rexp(100, 3)`
 
@@ -153,15 +146,15 @@ Lalu digambarkan dengan grafik menggunakan `plot()`
 ```
 plot(z_score, type = 'l', col='red')
 ```
-![Grafik Plot](https://github.com/fshaaa/P1_Probstat_F_5025201051/blob/main/screenshot/soal6.a.PNG)
+![Grafik Plot](https://user-images.githubusercontent.com/90760961/162613312-be701e9b-7586-4e1f-a587-2d66261fa545.png)
 
 #### 6.b. Membuat histogram distribusi chi-square
 ```
 hist(data, 
-     main = "5025201051_Muhammad Fath Mushaffa Azhar_Probstat_F_DNhistogram",
+     main = "5025201056_Rendi Dwi Francisko_Probstat_F_DNhistogram",
      breaks = 50)
  ```
 
-![Histogram Distribusi Normal](https://github.com/fshaaa/P1_Probstat_F_5025201051/blob/main/screenshot/soal6.b.PNG)
+![Histogram Distribusi Normal](https://user-images.githubusercontent.com/90760961/162613337-4ba64894-b31c-4a7b-869e-19850149f37b.png)
 
 #### 6.c. Nilai varian dapat dicari dengan `σ² = var(data)`
