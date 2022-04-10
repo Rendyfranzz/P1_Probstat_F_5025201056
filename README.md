@@ -1,7 +1,4 @@
 # P1_Probstat_F_5025201056
-
-# 3c
-Dapat dilihat bahwa hasil simulasi nya sekitar 11.5% sedangkan nilai exact nya yaitu 12,8% yang artinya sesuai karena nilai simulasi mendekati nilai exact
 # Referensi
 - no 1
 https://rpubs.com/mpfoley73/458721
@@ -17,7 +14,6 @@ https://bookdown.org/gabriel_butler/ECON41Labs/tutorial-5-the-poisson-distributi
 -- https://rstudio-pubs-static.s3.amazonaws.com/122318_18a1529811ab4874b999a3f7c408c66a.html
 
 ## Penjelasan Pengerjaan
-
 
 ### Soal 1 Distribusi Geomatrik
 
@@ -41,7 +37,7 @@ berdasarkan hasil keduanya nilai percobaan yang ada di poin b itu hampir mendeka
 
 ![Histogram Distribusi Geometrik](https://user-images.githubusercontent.com/90760961/162613069-1446064f-3146-455c-9590-225f4aee3172.png)
 
-Referensi : https://rpubs.com/mpfoley73/458721 
+
 #### 1.e. Nilai rataan dapat dicari dengan `μ = 1/p` sedangkan varian `σ² = 1-p/p^2` 
 
 
@@ -73,10 +69,10 @@ hasil outputnya 0.12812
 
 ![Histogram Distribusi Poisson](https://user-images.githubusercontent.com/90760961/162613162-c38b3f7f-ed84-42bd-8696-c8abf233749b.png)
 
-REFERENSI : https://bookdown.org/gabriel_butler/ECON41Labs/tutorial-5-the-poisson-distribution.html 
+
 
 #### 3.c. Bandingkan a dan b
-pada soal a adalah nilai exactnya, sedangkan soal b itu adalah nilai simulasi yang memiliki hasil 11.50% hampir mendekati dengan nilai exact yaitu 12.81%
+Dapat dilihat bahwa hasil simulasi nya sekitar 11.50% sedangkan nilai exact nya yaitu 12,81% yang artinya sesuai karena nilai simulasi mendekati nilai exact
 
 #### 3.d. Nilai rataan dapat dicari dengan `μ = λ` dan varian `σ² = λ` 
 
@@ -106,9 +102,6 @@ x <- rchisq(100, 10)
 rexp(10, 3)
 ```
 hasil outputnya berupa data yang berjumlah 10 
-```
-0.25172728 0.39388093 0.04856891 0.04659842 0.14535621 0.96498951 0.40985402 0.17989428 0.31885583 0.04901533
-```
 
 #### 5.b. Membuat histogram distribusi eksponensial dengan n = 10, 100, 1000, 10000
 ```
@@ -123,7 +116,7 @@ x1 <- rexp(n, 3)
 
 ![Histogram Distribusi Eksponensial n = 10000](https://user-images.githubusercontent.com/90760961/162613260-47aacabf-9d53-45dc-b496-f4f47255e8e3.png)
 
-#### 5.c. Nilai rataan dapat dicari dengan `μ = mean(rexp(100, 3)` sedangkan varian `σ² = var(rexp(100, 3)`
+#### 5.c. Nilai rataan dapat dicari dengan `μ = mean(rexp(100, 3)` sedangkan varian mengunakan `σ² = var(rexp(100, 3)`
 
 
 ### Soal 6 Distribusi Normal
@@ -146,7 +139,7 @@ Lalu digambarkan dengan grafik menggunakan `plot()`
 ```
 plot(z_score, type = 'l', col='red')
 ```
-![Grafik Plot](https://user-images.githubusercontent.com/90760961/162613312-be701e9b-7586-4e1f-a587-2d66261fa545.png)
+![Grafik Plot](https://user-images.githubusercontent.com/90760961/162613839-91862c2d-85aa-434e-b9bd-d9acfd642635.png)
 
 #### 6.b. Membuat histogram distribusi chi-square
 ```
@@ -155,6 +148,6 @@ hist(data,
      breaks = 50)
  ```
 
-![Histogram Distribusi Normal](https://user-images.githubusercontent.com/90760961/162613337-4ba64894-b31c-4a7b-869e-19850149f37b.png)
+![Histogram Distribusi Normal](https://user-images.githubusercontent.com/90760961/162613865-e9be4486-1bfb-492f-bdc8-c638e220e966.png)
 
 #### 6.c. Nilai varian dapat dicari dengan `σ² = var(data)`
